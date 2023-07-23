@@ -1,16 +1,16 @@
 /********** Template CSS **********/
 :root {
-    --primary: #348E38;
+    --primary: #618bb9;
     --secondary: #525368;
     --light: #E8F5E9;
-    --dark: #0F4229;
+    --dark: #878787;
 }
 
 .back-to-top {
     position: fixed;
     display: none;
-    right: 30px;
-    bottom: 30px;
+    right: 40px;
+    bottom: 40px;
     z-index: 99;
 }
 
@@ -166,7 +166,7 @@ h6,
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(15, 66, 41, .6);
+    /* background: rgba(15, 66, 41, .6); */
     z-index: 1;
 }
 
@@ -189,12 +189,17 @@ h6,
         position: relative;
         min-height: 450px;
     }
+
+    .item_img_main {
+        display: none;
+    }
     
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
         height: 100%;
         object-fit: cover;
+        /* display: none; */
     }
 }
 
@@ -517,4 +522,9 @@ h6,
 
 .copyright a:hover {
     color: var(--primary);
+}
+
+.navbar-brand img {
+    width: 220px;
+    height: 50px;
 }
