@@ -8,6 +8,11 @@
     --custom-btn-bg-hover-color:    #13547a;
 }
 
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 /*---------------------------------------
   CUSTOM BUTTON               
 -----------------------------------------*/
@@ -149,6 +154,17 @@
   .social-icon li img {
     width: 120px;
   }
+
+  .social-icon2 li {
+    list-style : none;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .social-icon2 li img {
+    width: 350px;
+    margin: 5px 0;
+  }
   
   .bg-design {
     background-color: #00B0FF;
@@ -237,7 +253,14 @@
     background-size: cover;
 }
 
+#section_2 {
+    background-image: url("../img/main_BK_3.png");
+}
 
+#section_3 {
+    background-size: cover;
+    background-image: url("../img/main_BK_4.png");
+}
 
 h1,
 .h1,
