@@ -152,7 +152,7 @@
   }
 
   .social-icon li img {
-    width: 120px;
+    width: 100px;
   }
 
   .social-icon2 li {
@@ -162,7 +162,7 @@
   }
 
   .social-icon2 li img {
-    width: 350px;
+    width: 320px;
     margin: 5px 0;
   }
   
@@ -347,12 +347,12 @@ h6,
 
 .navbar .navbar-brand,
 .navbar a.btn {
-    height: 80px
+    height: 70px;
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-right: 35px;
-    padding: 25px 0;
+    margin-right: 30px;
+    padding: 20px 0;
     color: var(--dark);
     font-size: 18px;
     font-weight: 500;
@@ -732,6 +732,9 @@ h6,
     color: var(--light);
 }
 
+.team-item .img-fluid {
+    max-width: 90%;
+}
 
 /*** Footer ***/
 .footer .btn.btn-link {
@@ -773,6 +776,6 @@ h6,
 }
 
 .navbar-brand img {
-    width: 220px;
+    width: 200px;
     height: 50px;
 }
