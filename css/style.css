@@ -818,3 +818,7 @@ h6,
     margin-right: 25px;
     margin-left: 25px;
 }
+
+.about_header h6, .about_header2 h6, .about_header3 h6 {
+    line-height: 1.5;
+}
