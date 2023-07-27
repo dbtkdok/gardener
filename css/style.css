@@ -262,6 +262,27 @@
     background-image: url("../img/main_BK_4.png");
 }
 
+#about_0 {
+    background-size: cover;
+    background-image: url("../img/about_main_2.png");
+    height: 500px;
+}
+
+#about_1 {
+    background-size: cover;
+    background-image: url("../img/about_main_3.png");
+}
+
+#about_2 {
+    background-size: cover;
+    background-image: url("../img/about_main_4.png");
+}
+
+#about_3 {
+    background-size: cover;
+    background-image: url("../img/about_main_5.png");
+}
+
 h1,
 .h1,
 h2,
@@ -778,4 +799,14 @@ h6,
 .navbar-brand img {
     width: 200px;
     height: 50px;
+}
+
+.about_header img {
+    margin-bottom: 55px;
+}
+
+.about_header2 img {
+    margin-bottom: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
