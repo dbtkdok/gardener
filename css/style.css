@@ -802,7 +802,7 @@ h6,
 }
 
 .about_header img {
-    margin-bottom: 55px;
+    margin-bottom: 35px;
     margin-right: 25px;
     margin-left: 25px;
 }
@@ -821,4 +821,11 @@ h6,
 
 .about_header h6, .about_header2 h6, .about_header3 h6 {
     line-height: 1.5;
+}
+
+.about_header h4 p {
+    font-size: 11px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #c1c1c1;
 }
