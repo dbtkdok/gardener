@@ -31,6 +31,7 @@
  .fp-slide, .fp-slidesContainer {
      height: 100%;
      display: block;
+     background: #7e7e7e;
  }
  .fp-slides {
      z-index:1;
@@ -114,7 +115,7 @@
      margin: 0 auto !important;
  }
  .fp-slidesNav.fp-bottom {
-     bottom: 17px;
+     bottom: 35%;
  }
  .fp-slidesNav.fp-top {
      top: 17px;
@@ -162,7 +163,7 @@
      height: 4px;
      width: 4px;
      border: 0;
-     background: #333;
+     background: #fff;
      left: 50%;
      top: 50%;
      margin: -2px 0 0 -2px;
@@ -234,6 +235,7 @@
  .fp-overflow{
      justify-content: flex-start;
      max-height: 100vh;
+     height: 100%;
  }
  
  /* No scrollable when using auto-height */
