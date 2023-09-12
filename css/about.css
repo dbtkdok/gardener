@@ -22,11 +22,12 @@ body {
     width: 100%;
 }
 table {
-    border-collapse: collapse;
+    border-collapse: separate;
     text-align: center;
+    border-spacing: 10px 5px;
 }
 th {
-    background: #fff
+    background: #fff;
 }
 
 th, td {
@@ -49,7 +50,8 @@ tr:hover {
 }
 
 .talk_intro {
-    transform: translate( 0%, 80% );
+    transform: translate( -1%, 80% );
+    font-size: 18px;
 }
 
 @media (max-width: 1000px) {
