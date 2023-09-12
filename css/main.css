@@ -1608,7 +1608,7 @@ responsive
 
 
 body {
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 @media (max-width: 992px) {
