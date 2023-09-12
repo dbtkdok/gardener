@@ -1589,7 +1589,7 @@ body {
 
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
-    line-height: 100px;
+    /* line-height: 100px; */
   }
   .background-header .main-nav .logo {
     line-height: 80px;
