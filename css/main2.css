@@ -294,7 +294,7 @@ header
 }
 
 .header-area .main-nav .nav li:last-child {
-  padding-right: 0px;
+  /* padding-right: 0px; */
 }
 
 .header-area .main-nav .nav li a {
@@ -1496,13 +1496,13 @@ body {
 
 @media (max-width: 992px) {
   .header-area .main-nav .nav li:last-child {
-    display: none;
+    /* display: none; */
   }
   .header-area .main-nav .nav li ul li:last-child {
     display: inline-block;
   }
   .header-area {
-    background-color: #212741;
+    /* background-color: #212741; */
   }
   .slide-inner .header-text {
     width: 80%;
