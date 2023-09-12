@@ -16,7 +16,6 @@ body {
 .jb-text {
     padding: 5px;
     text-align: center;
-    position: absolute;
     top: 43%;
     left: 46%;
     transform: translate( -50%, -50% );
@@ -39,4 +38,29 @@ th, td {
 
 tr:hover {
     background: #d1d1d1;
+}
+
+.talk_bk {
+    background-image: url(../img/about/introduction_talk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 557px;
+    background-size: contain;
+}
+
+.talk_intro {
+    transform: translate( 0%, 80% );
+}
+
+@media (max-width: 1000px) {
+    .talk_intro {
+        transform: translate( 0%, 100% );
+    }
+}
+
+@media (max-width: 800px) {
+    .talk_intro {
+        transform: translate( 0%, 135% );
+        font-size: 13px;
+    }
 }
