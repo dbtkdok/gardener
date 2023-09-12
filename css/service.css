@@ -2,11 +2,12 @@ body {
     background-color: #FCFCFC;
 }
 .he_300 {
-    background: url(../img/sevice/5_프로그램박스.png);
-    background-size: cover;
     background-repeat: no-repeat;
     border: 0;
-    height: 565px;
+    border-radius: 20px !important;
+    box-shadow: 0px 0px 5px 0px #d1d1d1;
+    min-width: auto;
+    background: #f5f8fb;
 }
 .min-vh-30 {
     min-height: 30vh!important;
@@ -61,7 +62,7 @@ tr:hover {
 }
 
 .talk_bk {
-    background-image: url(../img/about/introduction_talk.png);
+    background-image: url(../imgabout/introduction_talk.png);
     background-position: center;
     background-repeat: no-repeat;
     height: 557px;
