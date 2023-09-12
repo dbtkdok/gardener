@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>펄밋 - 교육 컨설팅 : 회사소개</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="펄밋 회사소개, PER:MEET 회사소개" name="keywords">
     <meta content="펄밋 회사소개, PER:MEET 회사소개" name="description">
     <meta name="naver-site-verification" content="fe1cf9ac84992b1360347357dc6ff9d3ec7677bf" />
@@ -18,7 +18,8 @@
     <meta property="og:image" content="./img/logo.png">
     <meta property="og:url" content="http://permeet.cafe24.com/about.html">
 
-    <!-- Google Web Fonts -->
+    <!-- Favicon -->
+    <link href="./img/logo.png" rel="icon">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css">
     <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,374 +33,365 @@
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/about.css">
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+   <!-- ***** Header Area Start ***** -->
+   <header class="header-area header-sticky">
+    <div class="col-12">
+        <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="/" class="logo">
+                <img src="./img/permeet_w_simple.png" style="width: 300px;" />
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+                <li class="scroll-to-section"><a href="./about.html">회사소개</a></li>
+                <li class="scroll-to-section"><a href="./service.html">교육 프로그램 소개</a></li>
+                <!-- <li class="scroll-to-section"><a href="./404.html">교육후기</a></li> -->
+                <li class="scroll-to-section"><a href="./404.html">공지</a></li>
+                <li class="scroll-to-section"><a href="./404.html">컨설턴트 전용서비스</a></li>
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+        </nav>
     </div>
-    <!-- Spinner End -->
+</header>
+<!-- ***** Header Area End ***** -->
 
-
-    <!-- Topbar Start -->
-    <!-- Topbar Start 
-    <div class="container-fluid bg-dark text-light px-0 py-2">
-        <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center me-4">
-                    <span class="fa fa-phone-alt me-2"></span>
-                    <span>+012 345 6789</span>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center">
-                    <span class="far fa-envelope me-2"></span>
-                    <span>info@example.com</span>
-                </div>
-            </div>
-            <div class="col-lg-5 px-5 text-end">
-                <div class="h-100 d-inline-flex align-items-center mx-n2">
-                    <span>Follow Us:</span>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+<div class="container px-0">
+    <div class="d-flex flex-column justify-content-end  align-items-center h-100 min-vh-100 about_main" id="section_0">
+            <div class="container">
+                <div class="row justify-content-center align-items-center mb-5">
+                    <div class="col-lg-12 col-12">
+                        <div class="topics-detail-block text-center wow fadeInUp mb-5">
+                            <img src="./img/permeet_w_simple.png" style="width: 300px" class="topics-detail-block-image img-fluid" style="-webkit-box-reflect: below -110px linear-gradient(transparent, rgba(0,0,0,0), rgba(0,0,0,0.4));">
+                        </div>
+                        <div class="d-flex justify-content-center mt-4 mb-4">
+                            <hr class="about_main_hr"/>
+                        </div>
+                        <div class="align-items-center mt-4 wow fadeInLeft text-center mb-5">
+                            <p class="text-white">
+                                미래를 가치있게 창조하기 위한 지식과 경험을 바탕으로 <br/>
+                                기업과 개인의 협업, 혁신과 성장을 이끄는 교육서비스 전문기관 PER:MEET 입니다.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div> -->
-    <!-- Topbar End -->
+	</div>
 
-
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <a href="./index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h1 class="m-0"><img src="./img/main_logo.jpeg"></h1>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="./about.html" class="nav-item nav-link">회사소개</a>
-                <a href="./404.html" class="nav-item nav-link">교육 프로그램 소개</a>
-                <a href="./404.html" class="nav-item nav-link">교육후기</a>
-                <a href="./404.html" class="nav-item nav-link">공지</a>
-                <a href="./404.html" class="nav-item nav-link">컨설턴트 전용서비스</a>
-            </div>
-            <!--
-            <a href="" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
-            -->
-        </div>
-    </nav>
-    <!-- Navbar End -->
-
-    <header class="site-header d-flex flex-column justify-content-center align-items-center" id="about_0">
+    <div class="d-flex flex-column justify-content-center  align-items-center h-100 min-vh-100 mt-5" id="section_0">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="about_header col-lg-12 col-12 d-flex justify-content-center align-items-center">
-                    <img src="./img/icon_left.png" width="35px"/>
+                <div class="col-lg-12 col-12">
+                    <div class="align-items-center mt-4 wow fadeInLeft text-center mb-5">
+                        PER:MEET은 잠재력과 정체성이 중요해진 시대 흐름에 맞추어<br/>
+                        경쟁력과 ‘나’ 다움을 지닌 인재를 양성함으로써,<br/>
+                        개인과 사회의 발전에 기여하는 목적을 가지고 있습니다.<br/><br/>
+
+                        청년들이 초개인화가 되어가는 시대에 ‘나’라는 정체성을 찾아가고<br/>
+                        새로운 자신의 가치를 발견할 수 있도록 하는 것이 목표입니다.<br/><br/>
+
+                        청년과 기업이 함께 목표를 세우고 협력할 때, 조직과 사회가 추구하는 의식이<br/>
+                        한단계 더 성장하고, 청년은 자신의 꿈을 향해 도약하기 시작하며,<br/>
+                        기업은 탄탄한 조직력과 브랜드 가치를 창출합니다.<br/><br/>
+
+                        아울러 다양한 사회에 기여하고 있는 사회인들이 목적의식을 찾고 기업 등<br/>
+                        다양한 조직에서 높은 가치를 창출 할 수 있도록 리더들과 청년, 상인 등<br/>
+                        <b>지역 사회 발전에 선한 영향력</b>을 미칠 수 있도록 교육하고자 합니다.<br/><br/>
+
+                        그 가치를 실현하기 위해 체계적이고 정확한 진단 검사 데이터를 통한<br/>
+                        맞춤 교육을 설계하고 인증된 컨설턴트들과 함께 선도적으로<br/>
+                        청년과 기업인들의 역랴개발과 가치 실현을 목표로 교육 서비스를 재공하고 있습니다.<br/><br/>
+
+                        우리 사회의 가치관과 목표가 자아실현이 되는 그날까지 앞으로도 최선을 다할것입니다.<br/>
+                        함께 하여 주시고 성원해주시기 바랍니다.<br/>
+                    </div>
+                    <div class="align-items-right mt-4 wow fadeInLeft text-end mb-3 w-100">
+                        (주) PER:MEET 대표이사
+                    </div>
+                    <div class="align-items-right wow fadeInLeft text-end mb-5 pe-5 me-5 w-100">
+                        김규현
+                    </div>
                     
-                    <h4 class="text-white text-center wow fadeInLeft">
-                        <p>DEVELOPMENT. EDUCATION. LEARNING & POWER</p>
-                        잠재력과 역량 강화를 위한 <br>
-                        PER:MEET의 노력
-                    </h4>
-                    <img src="./img/icon_right.png" width="35px"/>
                 </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="d-flex flex-column justify-content-center align-items-center py-5" id="about_1">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="about_header col-lg-12 col-12 d-flex justify-content-center align-items-center">
-                    <img src="./img/abot_img_3.png" width="200px"/>
-                </div>
-                <div class="about_header2 col-lg-12 col-12 d-flex justify-content-center align-items-center">
-                    <img src="./img/icon_left.png" width="35px"/>
-                    <h6 class="text-white text-center wow fadeInLeft">
-                        교육의 역할은 경제성장과 <br>
-                        개인의 사회적 성공뿐만아니라 <br>
-                        공동 번영을 위한 <b>모두의 성장 과제</b>입니다 <br>
-                        함께 성장할 수 있도록 좋은 서비스와 <br>
-                        교육으로 사회에 기여하겠습니다
-                    </h6>
-                    <img src="./img/icon_right.png" width="35px"/>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="d-flex flex-column justify-content-center align-items-center py-5" id="about_2">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="about_header col-lg-12 col-12 d-flex justify-content-center align-items-center">
-                    <img src="./img/abot_img_1.png" width="200px"/>
-                </div>
-                <div class="about_header2 col-lg-12 col-12 d-flex justify-content-center align-items-center">
-                    <img src="./img/icon_left.png" width="35px"/>
-                    <h6 class="text-white text-center wow fadeInLeft">
-                        실생활에서 필요한 기술과 지식을 <br>
-                        평면적인 교육을 넘어! 지속적으로 활용할 <br>
-                        수 있느 <b>실직적 교육</b>을 제공합니다 <br>
-                        통해 참여자들은 필요한 지식, 기술, 교육을 <br>
-                        스스로 선택하고 응용할 수 있습니다
-                    </h6>
-                    <img src="./img/icon_right.png" width="35px"/>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="d-flex flex-column justify-content-center align-items-center py-5" id="about_3">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="about_header col-lg-12 col-12 d-flex justify-content-center align-items-center">
-                    <img src="./img/abot_img_2.png" width="200px"/>
-                </div>
-                <div class="about_header3 col-lg-12 col-12 d-flex justify-content-center align-items-center">
-                    <img src="./img/icon_left.png" width="35px"/>
-                    <h6 class="text-white text-center wow fadeInLeft">
-                        디지털 기술 발전에 따라 <br>
-                        사회는 빠르게 변화하고 있습니다 <br>
-                        이에 맞춰 개개인의 인식능력 향상과 <br>
-                        집단지성의 힘 향상을 위한 <br>
-                        언어와 문화를 넘어선 <b>학습목표</b>와<br>
-                        <b>커리큘럼</b>을 제공합니다.
-                    </h6>
-                    <img src="./img/icon_right.png" width="35px"/>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Page Header Start
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center py-5">
-            <h1 class="display-3 text-white mb-4 animated slideInDown">About Us</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">About</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
-    -->
-    <!-- Page Header End -->
-
-
-    <!-- About Start 
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 align-items-end">
-                <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid rounded" data-wow-delay="0.1s" src="img/about.jpg">
-                </div>
-                <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
-                    <h1 class="display-1 text-primary mb-0">25</h1>
-                    <p class="text-primary mb-4">Year of Experience</p>
-                    <h1 class="display-5 mb-4">We Make Your Home Like A Garden</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <a class="btn btn-primary py-3 px-4" href="">Explore More</a>
-                </div>
-                <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="row g-5">
-                        <div class="col-12 col-sm-6 col-lg-12">
-                            <div class="border-start ps-4">
-                                <i class="fa fa-award fa-3x text-primary mb-3"></i>
-                                <h4 class="mb-3">Award Winning</h4>
-                                <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna</span>
-                            </div>
+                <div class="col-lg-12 col-12 mb-5">
+                    <!--
+                    <div class="jb-wrap">
+                        <div class="jb-image">
+                            <img src="./img/about/introduction_talk.png">
                         </div>
-                        <div class="col-12 col-sm-6 col-lg-12">
-                            <div class="border-start ps-4">
-                                <i class="fa fa-users fa-3x text-primary mb-3"></i>
-                                <h4 class="mb-3">Dedicated Team</h4>
-                                <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna</span>
-                            </div>
+                        <div class="jb-text">
+                            <p class="text-black">
+                                퍼밋은 2014년 교육 아웃소싱 기업으로<br/>
+                                교육의 기회는 평등하게 주어져야하고 책임지는 교육을 해야한다는 정신으로<br/> 
+                                국내 대기업 및 여러 대학들과 함께 연계하고 있습니다. <br/><br/>  
+
+                                2020년 4~5월부터 "교육을 아웃소싱하는 것이 아니라<br/> 
+                                교육 사업에 주도적으로 나서야겠다."는 정신으로<br/> 
+                                전문 컨설턴트들과 함께 하고 있습니다.
+                            </p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </d iv>
-    -->
-    <!-- About End -->
+                    -->
+                    <div class="align-items-center mt-4 wow fadeInLeft text-center mt-2 talk_bk"> 
+                        <div class="talk_intro">
+                            PER:MEET은 2014년 교육 아웃소싱 기업으로<br/>
+                            평등하고 책임을 다하는 교육의 기회를 제공하기 위헤<br/> 
+                            국내 대기업 및 여러 대학들과 함께 연계하고 있습니다. <br/><br/>  
 
+                            2020년 4~5월부터 "교육을 아웃소싱하는 것이 아니라<br/> 
+                            교육 사업에 주도적으로 나서야겠다."는 정신으로<br/> 
+                            전문 컨설턴트들과 함께 하고 있습니다.
+                        </div>
+                    </div>
 
-    <!-- Facts Start
-    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-1.jpg">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 fw-semi-bold text-light">Happy Clients</span>
+                    <div class="align-items-center mt-4 wow fadeInLeft text-center mt-5 mb-5"> 
+                        <h4 class="text-black">
+                            “ 교육의 사회적 기능은 개인으로 하여금 뒷날 사회에서 이룩하게 될 역할을<br/>
+                            수행할 수 있는 소질을 부여하는 일이다. 즉 개인의 성격을 사회적 성격에 접근시켜<br/>
+                            그의 욕구를 그이 사회적 역할에서 요구되는 것과 일치시키도록 하는 일이다. “<br/><br/>
+                        </h4>
+                        에리히 프롬(Erich Pinchas Fromm)
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 fw-semi-bold text-light">Garden Complated</span>
+                <div class="col-lg-12 col-12">
+                    <p class="text-primary text-start">
+                        약 20여개의 다양한 교육 프로그램
+                    </p>
+                    <h2 class="text-black mb-3">
+                        SOLUTION PROGRAM 
+                    </h2>
+                    <div class="row justify-content-center align-items-center mb-5">
+                        <table class="my_table">
+                            <colgroup>
+                                <col width="25%" />
+                                <col width="25%" />
+                                <col width="50%" />
+                              </colgroup>
+                            <tr>
+                                <th rowspan="2">AGILITY</th>
+                                <td class="bg-black text-white">VISION</td>
+                                <td>개인의 공유 가치 형성을 통한 방향성 수립</td>
+                            </tr>
+                            <tr>
+                                <td class="bg-black text-white">TEAMWORK</td>
+                                <td >개인과 조직간 업무 방식을 정립하고 상호 발전적인 관계 구축</td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">SUSTAINABILTY</th>
+                                <td class="bg-black text-white">LEADERSHIP</td>
+                                <td>합리적인 의사결정과 동기부여를 통한 경쟁력 강화</td>
+                            </tr>
+                            <tr>
+                                <td class="bg-black text-white">SAFETY</td>
+                                <td>심리적 안정감과 예측 가능한 성과 보상 제도 수립</td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">PROFESSIONAL</th>
+                                <td class="bg-black text-white">COACHING</td>
+                                <td>개인의 성향을 고려한 과학적 컨설팅 진행</td>
+                            </tr>
+                            <tr>
+                                <td class="bg-black text-white">PERFORMANCE</td>
+                                <td>지속가능한 성장을 위한 발전 방향 제시</td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">OWNERSHIP</th>
+                                <td class="bg-black text-white">FLOW</td>
+                                <td>자발적 몰입 강화와 주인의식 부여</td>
+                            </tr>
+                            <tr>
+                                <td class="bg-black text-white">GROTH</td>
+                                <td>진정한 성장을 위한 문화 구축</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 fw-semi-bold text-light">Dedicated Staff</span>
-                </div>
-                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 fw-semi-bold text-light">Awards Achieved</span>
-                </div>
-            </div>
-        </div>
-    </div>
-     -->
-    <!-- Facts End -->
-
-
-    <!-- Team Start
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="fs-5 fw-bold text-primary">Our Team</p>
-                <h1 class="display-5 mb-5">Dedicated & Experienced Team Members</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item rounded">
-                        <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        <div class="team-text">
-                            <h4 class="mb-0">Doris Jordan</h4>
-                            <p class="text-primary">Landscape Designer</p>
-                            <div class="team-social d-flex">
-                                <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-instagram"></i></a>
+                <div class="col-lg-12 col-12 mt-4">
+                    <p class="text-primary text-start">
+                        PER:MEET
+                    </p>
+                    <h2 class="text-black mb-3">
+                        Part Introduction
+                    </h2>
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="team-item rounded he_300 d-grid align-items-end px-3">
+                                <div class="text-start text-black">
+                                    <h5 class="text-primary mb-3 ms-3">01</h5>
+                                    <h4 class="text-black ms-3">교육연구소</h4>
+                                </div>
+                                <p class="text-start text-black px-2">
+                                    지식연구소는 다양한 교육 솔루션 연구 및 개발하는 부서입니다. 최근 트렌드에 기반한 다양한 교육 솔루션 연구 개발을 진행합니다.
+                                </p>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="team-item rounded he_300 d-grid align-items-end">
+                                <div class="text-start text-black">
+                                    <h5 class="text-primary mb-3 ms-3">02</h5>
+                                    <h4 class="text-black ms-3">교육기획본부</h4>
+                                </div>
+                                <p class="text-start text-black px-2">
+                                    교육 컨설팅 기획, 마케팅 운영의 경험을 통해 기업의 HRD컨설턴트, 인적네트워크 교육 콘텐츠 개발・운영 하는 역할을 담당합니다.
+                                </p>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="team-item rounded he_300 d-grid align-items-end">
+                                <div class="text-start text-black">
+                                    <h5 class="text-primary mb-3 ms-3">03</h5>
+                                    <h4 class="text-black ms-3">인재혁신본부</h4>
+                                </div>
+                                <p class="text-start text-black px-2">
+                                    인재현식본부는 민간기업을 위한 맞춤형 역량강화와 디지털 기술분야 인재 향성을 위한 교육 컨설팅 사업에 집중하고 있습니다.
+                                </p>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="team-item rounded he_300 d-grid align-items-end">
+                                <div class="text-start text-black">
+                                    <h5 class="text-primary mb-3 ms-3">04</h5>
+                                    <h4 class="text-black ms-3">대학혁신센터</h4>
+                                </div>
+                                <p class="text-start text-black px-2">
+                                    대학현식센터는 국내 대학을 대상으로 교육, 진단, 컨설팅, 콘텐츠 개발 등 대학이 필요로 하는 다양한 분야에 대한 사업을 진행합니다.
+                                </p>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item rounded">
-                        <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        <div class="team-text">
-                            <h4 class="mb-0">Johnny Ramirez</h4>
-                            <p class="text-primary">Garden Designer</p>
-                            <div class="team-social d-flex">
-                                <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-instagram"></i></a>
+                    <div class="row g-4 mt-2">
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="team-item rounded he_300 d-grid align-items-end px-3">
+                                <div class="text-start text-black">
+                                    <h5 class="text-primary mb-3 ms-3">05</h5>
+                                    <h4 class="text-black ms-3">재무팀</h4>
+                                </div>
+                                <p class="text-start text-black px-2">
+                                    재무팀은 입출금 회계 관리, 월간 및 연간 자금계획 수립과 보고, 금융 기관 업무(회사자금 운용, 차입 진행) 등을 진행합니다.
+                                </p>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="team-item rounded he_300 d-grid align-items-end">
+                                <div class="text-start text-black">
+                                    <h5 class="text-primary mb-3 ms-3">06</h5>
+                                    <h4 class="text-black ms-3">마케팅팀</h4>
+                                </div>
+                                <p class="text-start text-black px-2">
+                                    전사 차원의 마케팅 전략을 기획하고 실행합니다. B2C, B2B 사업부문별 광고 및 홍보 기획, 디지털 채널 전략, 고객데이터 관리, 마케팅 콘텐츠를 기획하고 개발합니다.
+                                </p>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="team-item rounded he_300 d-grid align-items-end">
+                                <div class="text-start text-black">
+                                    <h5 class="text-primary mb-3 ms-3">07</h5>
+                                    <h4 class="text-black ms-3">시스템관리팀</h4>
+                                </div>
+                                <p class="text-start text-black px-2">
+                                    시스템관리팀은 사내 그룹웨어, ERP 등 경영지원 정보 시스템을 제안, 개발, 유지보수하고 중장기 정보시스템 운영 전략 및 기획을 진행합니다.
+                                </p>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="team-item rounded he_300 d-grid align-items-end">
+                                <div class="text-start text-black">
+                                    <h5 class="text-primary mb-3 ms-3">08</h5>
+                                    <h4 class="text-black ms-3">경영지원팀</h4>
+                                </div>
+                                <p class="text-start text-black px-2">
+                                    회사의 중장기 사업전략과 회사 비전 및 미션달성을 위한 경영방침을 수립합니다. 전사사업을 평가하고 각 부서별 주요 현안에 대해 적극적으로 협업, 조정합니다.
+                                </p>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
+                                <div style="text-align-last: left;">
+                                   
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item rounded">
-                        <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        <div class="team-text">
-                            <h4 class="mb-0">Diana Wagner</h4>
-                            <p class="text-primary">Senior Gardener</p>
-                            <div class="team-social d-flex">
-                                <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-instagram"></i></a>
+                <div class="col-lg-12 col-12 mt-5">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="container">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-lg-3 col-12">
+                                    <div class="topics-detail-block mb-5 wow fadeInUp text-start">
+                                        <img src="./img/permeet_b_simple.png" style="width: 200px" class="topics-detail-block-image img-fluid" style="-webkit-box-reflect: below -110px linear-gradient(transparent, rgba(0,0,0,0), rgba(0,0,0,0.4));">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-12">
+                                    <div class="text-black text-start">
+                                        <div class="d-flex">
+                                            <p class="text-black">펄밋(PER:MEET) | 서울 서초구 서초대로 396 2층(서초동, 강남빌딩)</p>
+                                            <p class="text-black ms-3">대표 : 김규현 | 사업자등록번호 : 767-16-01874</p>
+                                        </div>
+                                        <p class="text-black">Tel : 070-4554-3269 E-mail : 0000@permeet.kr</p>
+                                        <p class="text-black mb-3 mt-2">Copyright ⓒ 2014 (주) 펄밋(PER:MEET), All right reserved</p>
+                                        
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Team End -->
-
-
-    <!-- Footer Start 
-    <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Our Office</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Landscaping</a>
-                    <a class="btn btn-link" href="">Pruning plants</a>
-                    <a class="btn btn-link" href="">Urban Gardening</a>
-                    <a class="btn btn-link" href="">Garden Maintenance</a>
-                    <a class="btn btn-link" href="">Green Technology</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative w-100">
-                        <input class="form-control bg-light border-light w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    -->
-    <!-- Footer End -->
 
+</div>
 
-    <!-- Copyright Start -->
-    <div>
-        <img src="./img/footer.png" width="100%">
-        <!--
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
-                </div>
-            </div>
-        </div>
-        -->
-    </div>
-    <!-- Copyright End -->
-
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-lg-square rounded-circle back-to-top">
-        <img src="./img/kakotalk-05.png" width="120px" height="120px">
-        <!-- <i class="bi bi-arrow-up"></i> -->
-    </a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/parallax/parallax.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
 </body>
 
 </html>
