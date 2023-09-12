@@ -1,6 +1,13 @@
 body {
     background-color: #FCFCFC;
 }
+.he_300 {
+    background: url(../img/sevice/5_프로그램박스.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0;
+    height: 565px;
+}
 .min-vh-30 {
     min-height: 30vh!important;
 }
