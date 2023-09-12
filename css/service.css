@@ -5,7 +5,7 @@ body {
     min-height: 30vh!important;
 }
 .about_main {
-    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../img/about/introduction_main.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../img/sevice/1_메인배너.png);
     background-size: cover;
     background-position: center;
 }
@@ -63,4 +63,17 @@ tr:hover {
 .talk_intro {
     transform: translate( -1%, 80% );
     font-size: 18px;
+}
+
+@media (max-width: 1000px) {
+    .talk_intro {
+        transform: translate( 0%, 100% );
+    }
+}
+
+@media (max-width: 800px) {
+    .talk_intro {
+        transform: translate( 0%, 135% );
+        font-size: 13px;
+    }
 }

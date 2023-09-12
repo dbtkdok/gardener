@@ -1746,3 +1746,5 @@ body {
     padding: 50px;
   }
 }
+
+.container{width:1200px; max-width:none!important;}

@@ -107,19 +107,6 @@
             border: 1px solid #eee;
         }
 
-        .about_main {
-            background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../img/about/introduction_main.png);
-            background-size: cover;
-            background-position: center;
-        }
-
-        .about_main_hr {
-            width: 3px !important;
-            height: 100px !important;
-            background: #a5a5a5;
-            opacity: 1;
-        }
-
         @media (max-width: 1800px) {
             .main_imgs_slide_1_impact {
                 left: 35vw;
