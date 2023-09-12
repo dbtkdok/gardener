@@ -8,6 +8,7 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../img/about/introduction_main.png);
     background-size: cover;
     background-position: center;
+    max-width:none!important;
 }
 .about_main_hr {
     width: 3px !important;

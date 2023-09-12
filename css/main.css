@@ -1747,4 +1747,5 @@ body {
   }
 }
 
-.container{width:1200px; max-width:none!important;}
+body {min-width:1200px;}
+.container{min-width:1200px; max-width:none!important;}
