@@ -5,7 +5,7 @@ body {
     min-height: 30vh!important;
 }
 .about_main {
-    background: url(../img/login/2_로그인박스.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../img/notice/1_메인배너.png);
     background-size: cover;
     background-position: center;
 }
@@ -45,11 +45,6 @@ th, td {
     border-bottom: 1px solid #bababa;
     padding: 8px;
     height: 60px;
-}
-
-
-tr:hover {
-    background: #d1d1d1;
 }
 
 .talk_bk {
