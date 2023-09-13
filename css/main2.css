@@ -599,7 +599,7 @@ header
     border-top: 1px solid #eee;
   }
   .header-area.header-sticky .nav {
-    margin-top: 100px !important;
+    margin-top: -5px !important;
   }
   .background-header.header-sticky .nav {
     margin-top: 80px !important;
@@ -1701,6 +1701,9 @@ body {
   }
   .header-area .main-nav .nav li a {
     font-size: 12px;
+  }
+  .header-area .main-nav ul.active {
+    display: inline-block;
   }
   .background-header .main-nav .logo {
     line-height: 80px;
