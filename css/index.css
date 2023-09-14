@@ -105,7 +105,6 @@
     height: 400px;
     background: #eee;
     border: 1px solid #eee;
-    min-width: 300px;
 }
 
 @media (max-width: 1800px) {
