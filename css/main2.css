@@ -249,6 +249,8 @@ header
 .header-area .main-nav {
   min-height: 90px;
   background: #00000070;
+  max-width: none!important;
+  min-width: 1200px !important;
 }
 
 .header-area .main-nav .logo {
@@ -597,7 +599,7 @@ header
     border-top: 1px solid #eee;
   }
   .header-area.header-sticky .nav {
-    margin-top: 100px !important;
+    margin-top: -5px !important;
   }
   .background-header.header-sticky .nav {
     margin-top: 80px !important;
@@ -1700,6 +1702,9 @@ body {
   .header-area .main-nav .nav li a {
     font-size: 12px;
   }
+  .header-area .main-nav ul.active {
+    display: inline-block;
+  }
   .background-header .main-nav .logo {
     line-height: 80px;
   }
@@ -1748,5 +1753,4 @@ body {
   }
 }
 
-body {/* min-width:1200px; */}
-.container{min-width:1200px;max-width:none!important;}
+.container{min-width:1200px;/* max-width:none!important; */}

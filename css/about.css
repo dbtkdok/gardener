@@ -9,6 +9,8 @@ body {
     background-size: cover;
     background-position: center;
     max-width:none!important;
+    min-width: 1200px !important;
+    min-height: 800px !important;
 }
 .about_main_hr {
     width: 3px !important;
