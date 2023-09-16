@@ -13,12 +13,12 @@
     align-items: center;
 }
 #slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../img/main/2_메인배너_1.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../img/main/2_main_banner_1.png);
     background-size: cover;
     background-position: center;
 }
 #slide2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../img/main/2_메인배너_2.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../img/main/2_main_banner_2.png);
     background-size: cover;
     background-position: center;
 }
