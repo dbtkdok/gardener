@@ -9,9 +9,14 @@ body {
   background-size: cover;
   background-position: center;
   max-width:none!important;
-  min-width: 1300px !important;
+  min-width: 1330px !important;
   min-height: 800px !important;
 }
+
+.header-area .main-nav {
+    min-width: 1330px !important;
+}
+
 .about_main_hr {
   width: 3px !important;
   height: 100px !important;
