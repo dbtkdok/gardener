@@ -28,6 +28,7 @@
     font-weight: 600 !important;
     font-family: 'AppleSDGothicNeo', 'Noto Sans KR', sans-serif;
     text-align: left;
+    letter-spacing: -1px;
 }
 .main_text_2_p {
     color: #000000bf !important;
@@ -55,7 +56,7 @@
 }
 
 .swiper_intro {
-    background: url(./img/main/3_메인임팩트.png);
+    background: url(./img/main/3_Ã¡â€žâ€ Ã¡â€¦Â¦Ã¡â€žâ€¹Ã¡â€¦ÂµÃ¡â€ Â«Ã¡â€žâ€¹Ã¡â€¦ÂµÃ¡â€ Â·Ã¡â€žâ€˜Ã¡â€¦Â¢Ã¡â€ Â¨Ã¡â€žÂÃ¡â€¦Â³.png);
     background-size: cover;
     width: 500px;
     height: 500px;
@@ -110,7 +111,7 @@
 
 .he_300 {
     height: 400px;
-    background: #eee;
+    background: #fff;
     border: 1px solid #eee;
 }
 
