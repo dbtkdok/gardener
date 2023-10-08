@@ -35,26 +35,4 @@
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
-
-     <url>
-        <loc>http://permeet.cafe24.com/</loc>
-        <loc>http://koice.org/</loc>
-        <lastmod>2023-03-30T00:11:03+09:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://permeet.cafe24.com/about.html</loc>
-        <loc>http://koice.org/about.html</loc>
-        <lastmod>2023-03-30T00:11:03+09:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://permeet.cafe24.com/404.html</loc>
-        <loc>http://koice.org/service.html</loc>
-        <lastmod>2023-03-30T00:11:03+09:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
 </urlset>
