@@ -12,6 +12,14 @@ body {
   min-width: 1300px !important;
   min-height: 800px !important;
 }
+.about_main_notice_header {
+  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.8)), url(../img/notice/1_메인배너.png);
+  background-size: cover;
+  background-position: center;
+  max-width:none!important;
+  min-width: 1300px !important;
+  min-height: 400px !important;
+}
 .about_main_hr {
   width: 3px !important;
   height: 100px !important;
