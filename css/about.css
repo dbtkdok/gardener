@@ -38,16 +38,21 @@ body {
 table {
     border-collapse: separate;
     text-align: center;
-    border-spacing: 15px 10px;
+    border-spacing: 10px 5px;
 }
 th {
     background: #fff;
 }
 
 th, td {
-    border: 1px solid #6B83B2;
+    border: 1px solid #bababa;
     padding: 8px;
     height: 60px;
+}
+
+
+tr:hover {
+    background: #d1d1d1;
 }
 
 .talk_bk {
@@ -59,6 +64,6 @@ th, td {
 }
 
 .talk_intro {
-    transform: translate( -1%, 94% );
+    transform: translate( -1%, 80% );
     font-size: 18px;
 }

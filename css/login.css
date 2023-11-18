@@ -5,7 +5,7 @@ body {
   min-height: 30vh!important;
 }
 .about_main {
-  background: url(../img/login/2_login.png);
+  background: url(../img/login/2_로그인박스.png);
   background-size: cover;
   background-position: center;
 }
@@ -230,7 +230,7 @@ box-shadow: inset 0px -5px 10px rgba(100, 100, 100, 0.4), -1px 1px 0px rgba(255,
 }
 
 .login_btn {
-  background: #111133;
+  background: #330066;
   font-size: 20px;
   font-weight: bolder;
   border-radius: 25px;

@@ -694,8 +694,8 @@ banner
 }
 
 .swiper-slide-active p {
- /* animation: fadeInRight .8s; */
- /* -webkit-animation-delay: 1s;*/
+  animation: fadeInRight .8s;
+  -webkit-animation-delay: 1s;
   animation-delay: .3s;
   opacity: 1;
 }
